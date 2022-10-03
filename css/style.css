@@ -1,4 +1,10 @@
-@media screen and (min-width: 480px) {
-  body {
+.container {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 720px) {
+  .container {
+    display: flex;
+    flex-direction: column;
   }
 }
